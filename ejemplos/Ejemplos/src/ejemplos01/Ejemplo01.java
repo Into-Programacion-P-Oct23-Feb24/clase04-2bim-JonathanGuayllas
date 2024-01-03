@@ -23,7 +23,7 @@ public class Ejemplo01 {
     }
     
     
-    public String obtenerCiudadMayuscula(String m){
+    public static String obtenerCiudadMayuscula(String m){
         String m2 = m.toUpperCase();
         return m2;
     }
