@@ -18,8 +18,11 @@ public class Ejemplo01 {
         // TODO code application logic here
         
         
-        String miCiudad = obtenerCiudadMayuscula("Loja");
-        System.out.printf("%s\n", miCiudad);
+       // String miCiudad = obtenerCiudadMayuscula("Loja");
+       // System.out.printf("%s\n", miCiudad);
+       obtenerMultiplicacion(7,50)
+               
+               
     }
     
     
