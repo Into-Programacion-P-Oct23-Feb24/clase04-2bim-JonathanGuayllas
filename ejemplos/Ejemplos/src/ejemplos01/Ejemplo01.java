@@ -16,17 +16,17 @@ public class Ejemplo01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        
-       // String miCiudad = obtenerCiudadMayuscula("Loja");
-       // System.out.printf("%s\n", miCiudad);
-       obtenerMultiplicacion(7,50);
-       // aqui no retorna la información ya que hacemos un procedimiento
-       String miMensaje = obtenerMultiplicacionDos(7,50);
-       // aqui retorna la información ya que es una función
-       System.out.printf("%s\n",miMensaje);        
+
+        // String miCiudad = obtenerCiudadMayuscula("Loja");
+        // System.out.printf("%s\n", miCiudad);
+        obtenerMultiplicacion(7, 50);
+        // aqui no retorna la información ya que hacemos un procedimiento
+        String miMensaje = obtenerMultiplicacionDos(7, 50);
+        // aqui retorna la información ya que es una función
+        System.out.printf("%s\n", miMensaje);
     }
-    public static String obtenerMultiplicacionDos(int tabla, int limite){
+
+    public static String obtenerMultiplicacionDos(int tabla, int limite) {
         int resultado;
         String cadena = "";
         for (int i = 1; i <= limite; i++) {
@@ -36,12 +36,13 @@ public class Ejemplo01 {
         }
         return cadena;
     }
-    public static String obtenerCiudadMayuscula(String m){
+
+    public static String obtenerCiudadMayuscula(String m) {
         String m2 = m.toUpperCase();
         return m2;
     }
-    
-    public static void obtenerMultiplicacion(int tabla, int limite){
+
+    public static void obtenerMultiplicacion(int tabla, int limite) {
         int resultado;
         String cadena = "";
         for (int i = 1; i <= limite; i++) {
@@ -49,12 +50,11 @@ public class Ejemplo01 {
             cadena = String.format("%s%d x %d =%d\n", cadena, tabla,
                     i, resultado);
         }
-        System.out.printf("%s\n",cadena);
+        System.out.printf("%s\n", cadena);
     }
-    
-    public static String obtenerNombre(){
+
+    public static String obtenerNombre() {
         return "Luis";
     }
-    
-    
+
 }
