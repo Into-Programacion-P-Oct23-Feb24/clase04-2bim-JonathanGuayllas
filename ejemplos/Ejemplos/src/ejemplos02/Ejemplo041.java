@@ -37,6 +37,7 @@ public class Ejemplo041 {
         operacion = a * b;
         return operacion;
     }
+    // para presentar las matrices
     public static void resultado(int arreglo[][]){
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
