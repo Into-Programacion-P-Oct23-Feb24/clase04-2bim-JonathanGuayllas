@@ -24,14 +24,27 @@ public class Ejemplo041 {
 
             }
         }
+        System.out.println("Arreglo 1:");
+        resultado(arreglo1);
+        System.out.println("Arreglo 2:");
+        resultado(arreglo2);
+        System.out.println("Arreglo resultado:");
+        resultado(arreglo3);
     }
 
     public static int obtenerMultiplicacion(int a, int b) {
         int operacion;
         operacion = a * b;
-        System.out.printf("El valor de la multiplicación es: %d\n",
-                operacion);
-
+        return operacion;
+    }
+    public static void resultado(int arreglo[][]){
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.printf(arreglo[i][j] + "\t");
+            }
+            System.out.println();
+        }
+        System.out.println();
     }
 
 }
